@@ -40,3 +40,30 @@ Expected Output : 5
 //     }
 // }
 // console.log(checkPrime(121));
+//==============================XXXXXX===================================
+
+//Q:9. Write a JavaScript function which accepts an argument and returns the type.
+
+// function checkType(num) {
+//     let result = typeof num;
+//     return result;
+// }
+// console.log(checkType([]));
+
+//===============================XXXXXX===================================
+
+//Q:10. Write a JavaScript function which returns the n rows by n columns identity matrix.
+
+// function matrix(num) {
+//     for (let i = 0; i < num; i++) {
+//         for (let j = 0; j < num; j++) {
+//             if (i === j) {
+//                 console.log("1");
+//             } else {
+//                 console.log("0");
+//             }
+//         }
+//         console.log("\n");
+//     }
+// }
+// matrix(4);

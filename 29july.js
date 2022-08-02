@@ -53,7 +53,7 @@ The first perfect number is 6, because 1, 2, and 3 are its proper positive divis
 //======================XXXXXX=========================
 //Q:13. Write a JavaScript function to compute the factors of a positive integer.
 
-function factors(n) {
+/* function factors(n) {
     var num_factors = [];
 
     for (i = 1; i <= Math.floor(Math.sqrt(n)); i += 1)
@@ -66,4 +66,24 @@ function factors(n) {
 }
 console.log(factors(15)); // [1,3,5,15]
 // console.log(factors(16)); // [1,2,4,8,16]
-// console.log(factors(17)); // [1,17]
+// console.log(factors(17)); // [1,17] */
+
+//========================XXXXXX==========================================
+//Q:14. Write a JavaScript function to convert an amount to coins
+/*
+Sample function : amountTocoins(46, [25, 10, 5, 2, 1])
+Here 46 is the amount. and 25, 10, 5, 2, 1 are coins.
+Output : 25, 10, 10, 1
+*/
+// function amountTocoins(target, coinArr) {
+//     let solution = [];
+//     for (let i = 0; i < coinArr.length; i++) {
+//         while (coinArr[i] <= target) {
+//             solution.push(coinArr[i]);
+//             target -= coinArr[i];
+//         }
+//     }
+//     return solution;
+// }
+// let arr = [25, 10, 5, 2, 1];
+// console.log(amountTocoins(46, arr));

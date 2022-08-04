@@ -87,3 +87,34 @@ Output : 25, 10, 10, 1
 // }
 // let arr = [25, 10, 5, 2, 1];
 // console.log(amountTocoins(46, arr));
+//========================XXXXXX==========================
+//Q:15. Write a JavaScript function to compute the value of bn where n is the exponent and b is the bases.
+// Accept b and n from the user and display the result
+
+// function exp(b, n) {
+//     var ans = 1;
+//     for (var i = 1; i <= n; i++) {
+//         ans = b * ans;
+//     }
+//     return ans;
+// }
+// console.log(exp(2, 4));
+
+//============================XXXXXXXX=========================
+//Q:16. Write a JavaScript function to extract unique characters from a string
+/*
+Example string : "thequickbrownfoxjumpsoverthelazydog"
+Expected Output : "thequickbrownfxjmpsvlazydg"
+*/
+
+function uniqueCharacter(s) {
+    let str = s;
+    let unique = "";
+    for (let i = 0; i < str.length; i++) {
+        if (unique.indexOf(str.charAt(i)) == -1) {
+            unique += str[i];
+        }
+    }
+    return unique;
+}
+console.log(uniqueCharacter("thequickbrownfoxjumpsoverthelazydog"));
